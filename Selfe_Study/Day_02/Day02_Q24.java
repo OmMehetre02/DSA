@@ -1,0 +1,17 @@
+//24 Find average of array
+import java.util.*;
+public class Day02_Q24{
+   public static void main(String args[]){
+	  Scanner sc=new Scanner (System.in);
+	  int a[]=new int[5];
+	  for(int i=0;i<a.length;i++){
+		  a[i]=sc.nextInt();
+	  }
+	   int sum=0;
+	   for(int i=0;i<a.length;i++){
+		sum=sum+a[i];
+	   }
+	  float avg=sum/a.length;
+	   System.out.print("avg of elements = "+avg);
+   }
+}
