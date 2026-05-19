@@ -6,16 +6,12 @@ public class TQ4{
 		 Scanner sc = new Scanner (System.in);
 		 int num= sc.nextInt();
 		 int count=0;
-	
+	     
 		 while(num!=0){
-			 int freq=0;
+			 
 			 int digit = num%10;
-			 freq=freq+digit;
-			  if(digit==freq){
-				  count++;
-			  }
-			  System.out.println(digit+"--"+count+"\n");
-			  num=num/10;
+			 
+			   num=num/10;
 		 }
 	 }
 }

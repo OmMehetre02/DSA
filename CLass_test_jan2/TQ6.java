@@ -25,13 +25,7 @@ public class TQ6{
 		}
 		int L=0;
 		int R=b.length;
-		for(int i=0,j=a.length;i<a.length;i++,j++){
-			 
-			 c[i]=a[i];
-			  
-			  c[j]=b[i];
-			 
-		}
+		for(i)
 		
 		
 		
